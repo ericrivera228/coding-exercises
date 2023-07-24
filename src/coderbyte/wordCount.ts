@@ -1,5 +1,13 @@
-export const sum = (a: number, b: number) => {
+export const wordCount = (input: string) => {
 
-  return a + b;
+  if(input.length === 0){
+
+    return 0;
+  
+  }
+
+  const splitInput = input.trim().split(' ');
+
+  return splitInput.length;
 
 };

@@ -1,10 +1,40 @@
-import { sum } from './wordCount';
+import { wordCount } from './wordCount';
 
-describe('sum', () => {
+describe('wordCount', () => {
 
-  it('2+2', () => {
+  it('Hello World', () => {
 
-    expect(sum(2, 2)).toEqual(4);
+    expect(wordCount('Hello World')).toEqual(2);
+  
+  });
+
+  it('one 22 three', () => {
+
+    expect(wordCount('one 22 three')).toEqual(3);
+  
+  });
+
+  it('one-word', () => {
+
+    expect(wordCount('one-word')).toEqual(1);
+  
+  });
+
+  it(' leading and trailing spaces ', () => {
+
+    expect(wordCount(' leading and trailing spaces ')).toEqual(4);
+  
+  });
+
+  it('No words', () => {
+
+    expect(wordCount('')).toEqual(0);
+  
+  });
+
+  it('Never eat shredded wheat or cake', () => {
+
+    expect(wordCount('Never eat shredded wheat or cake')).toEqual(6);
   
   });
 
