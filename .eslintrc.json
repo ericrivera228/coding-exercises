@@ -32,10 +32,14 @@
             "error",
             "always"
         ],
-        "padded-blocks": [
-            "error",
-            "always"
-        ],
+        // "padded-blocks": [
+        //     "error",
+        //     "always"
+        // ],
+        // "prefer-const": [
+        //     "error",
+        //     "never"
+        // ],
         "quote-props": [
             "error",
             "as-needed"
