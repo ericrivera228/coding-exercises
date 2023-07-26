@@ -1,7 +1,9 @@
-const testFunction = () => {
+import { ArrayAdditionI } from './coderbyte/arrayAddition';
 
-  console.log('hey, listen!');
+// ArrayAdditionI([ 4, 6, 23, 10, 1, 3 ]);
 
-};
+const testArray = [ 1, 2, 3 ];
 
-testFunction();
+const newArray = testArray.splice(0, 1);
+
+console.log(newArray);
