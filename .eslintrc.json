@@ -55,6 +55,10 @@
         "array-bracket-spacing": [
             "error",
             "always"
+        ],
+        "comma-spacing": [
+            "error",
+            { "before": false, "after": true } 
         ]
     }
 }
