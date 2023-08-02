@@ -9,7 +9,7 @@
         "--inspect-brk",
         "${workspaceRoot}/node_modules/.bin/jest",
         "--runInBand",
-        "src/pathTechInterview.spec.ts"
+        "src/leetcode/containerWithMostWater.spec.ts"
       ],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
